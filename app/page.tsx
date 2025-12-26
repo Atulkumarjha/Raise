@@ -3,13 +3,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { HoverEffect } from "../components/ui/card-hover-effect";
+import Footer from "../components/footer";
 
 export default function HomePage() {
   const features = [
     {
       title: "Customer-first always",
       description:
-        "That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh crores of equity investments, making us India’s largest broker; contributing to 15% of daily retail exchange volumes in India.",
+        "That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh crores of equity investments, making us India's largest broker; contributing to 15% of daily retail exchange volumes in India.",
     },
     {
       title: "No spam or gimmicks",
@@ -125,6 +126,7 @@ export default function HomePage() {
           Modern platforms and apps, ₹0 investments, ₹0 intraday and F&O trades.
         </div>
       </div>
+      <div><Footer /></div>
     </>
   );
 }
